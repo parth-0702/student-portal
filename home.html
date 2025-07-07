@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>__HOME__</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linking external CSS file -->
+</head>
+<body>
+
+    <!-- Top Navbar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>       <!-- Navbar Option 1 -->
+            <li><a href="#">About</a></li>      <!-- Navbar Option 2 -->
+            <li><a href="#">Services</a></li>   <!-- Navbar Option 3 -->
+            <li><a href="#">Contact</a></li>    <!-- Navbar Option 4 -->
+            <li><a href="#">More</a></li>       <!-- Navbar Option 5 -->
+        </ul>
+    </nav>
+    <div id="logoo">
+        <img src="download.png" alt="LOGO">
+    </div>
+
+    <!-- Image Slider Section -->
+    <div class="slider">
+        <!-- Slide 1 -->
+        <img src="20241125_112347.jpg" class="slide active">
+        <!-- Slide 2 -->
+        <img src="DJI_0002.JPG" class="slide">
+        <!-- Slide 3 -->
+        <img src="WhatsApp Image 2025-01-31 at 21.05.05_6f648a7d.jpg" class="slide">
+    </div>
+
+    <!-- Script to make images slide every 3 seconds -->
+    <script>
+        let slides = document.querySelectorAll(".slide"); // Select all slides
+        let currentSlide = 0; // Initialize first slide index
+
+        setInterval(() => { // Run this function every 3000ms (3 sec)
+            slides[currentSlide].classList.remove("active"); // Hide current slide
+            currentSlide = (currentSlide + 1) % slides.length; // Move to next slide, loop to first if end reached
+            slides[currentSlide].classList.add("active"); // Show next slide
+        }, 3000);
+    </script>
+    <div>
+        
+    </div>
+
+</body>
+</html>

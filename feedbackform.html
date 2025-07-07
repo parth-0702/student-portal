@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style1.css">
+    <style>
+       
+        body{
+            background-color:rgb(240, 240, 240);
+        }
+        span{
+            border: 1px solid white ;
+            border-radius: 12px;
+            padding: 6px;
+            font-size: 23px;
+            font-weight: bold;
+            color: rgb(32, 76, 134);
+            background-color: white;
+        }
+        .div1{
+            height: 90px;
+            background-color: rgb(225, 226, 226);
+            margin-top: 32px;
+            margin-bottom: 0%;
+            padding-bottom: 0%;
+        }
+         .div2{
+            margin-top: 0%;
+            padding-top: 0%;
+            height: 90px;
+            background-color: rgb(255, 255, 255);
+            margin-top: 32px;
+        }
+        .inp{
+            margin-left: 30px;
+            height: 25px;
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <table  class="navbar">
+            <tr>
+                <td class="imgg" rowspan="2" width="20%">
+                    <p style="padding: 0%;  margin: 0px;"><a style="padding: 0% ; margin: 0px;" href="index.html"> <img src="downloadd.png" alt="logo" height="50px" width="auto" ></a></p>
+                </td>
+                <td rowspan="2"><span>Feedback Form</span></td>
+                <td class="space" ><strong>Oza Parth B</strong> </td>
+            </tr>
+            <tr >
+                <td class="space"><strong>24CS055</strong></td>
+            </tr>
+     </table>
+     <div style="margin-bottom: 0%;">
+        <p class="pp">Enter your feedback by filling form given below </p>
+        <div class="div1"><p style="display: inline-block; margin-left: 10px ;font-weight: bold;font-size: 25px;">NAME:</p><input class="inp" type="text" id="name" maxlength="50" placeholder="Enter Name"> </div>
+     </div>
+      <div class="div2"><p style="display: inline-block; margin-left: 10px ;font-weight: bold;font-size: 25px;">SUBJECT:</p><select class="inp" name="sub" id="sub">
+        <option value="DSA">DSA</option>
+        <option value="OOP">OOP</option>
+        <option value="HS">HS</option>
+        <option value="WDF">WDF</option>
+        <option value="CN">CN</option>
+        <option value="Maths">MATHS</option>
+      </select> </div>
+     </div>
+      <div class="div1"><p style="display: inline-block; margin-left: 10px ;font-weight: bold;font-size: 25px;">FEEDBACK:</p><textarea class="inp"  style="height: 60px; padding-top: 5px;margin-top: 5px;" id="" placeholder="Enter your Feedback"> </textarea> </div>
+     </div>
+
+ <div> <button class="admi-but" style="margin-top: 58px;" onclick="document.location='formdone.html'" >Submit</button></div>
+
+     
+    
+</body>
+</html>

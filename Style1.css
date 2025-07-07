@@ -1,0 +1,115 @@
+body{
+font-family: Arial;
+margin: 0%;
+box-sizing: border-box;
+}
+header{
+    position: sticky;
+    top: 0%;
+    
+ 
+}
+.inside{
+    background-color: white;
+    height: 358px;
+    border-radius: 12px;
+    margin-top: 65px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navbar{
+    background-color: rgb(32, 76, 134);
+    color: azure;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+.space{
+    text-align: right;
+    padding-right: 2.5%;
+}
+.slider{
+  
+    margin-bottom: 0px;
+}
+
+.line{
+    background-color: rgb(6, 6, 53);
+    width: 100%;
+    height: 5px;
+    margin-top: 0px;
+}
+.About{
+    margin-top: 12px;
+    
+}
+.hii{
+    color: darkblue;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.Option{
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    margin-right: 108px;
+    transition:0.25s;
+
+}
+.Option:hover {
+    color: rgb(255, 145, 2);
+    text-decoration: underline;
+    
+
+}
+
+.admi-but {
+    
+    color: white;
+    margin-left: 43%;
+    border-radius:25px ;
+    background-color: rgb(11, 88, 146);
+    height: 52px;
+    width: 190px;
+    margin-bottom: 110px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    transition: 0.25s;
+    cursor: pointer;
+
+}
+.cspit{
+    color: rgb(230, 199, 2);
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 25.3%;
+    margin-right: 30%;
+
+}
+.cspit:hover{
+    text-decoration: underline;
+}
+.inst{
+    text-align: center;
+    transition:0.25s;
+
+}
+.admi-but:hover{
+    color:  rgb(11, 88, 146);
+    background-color: white;
+    border-color:  rgb(11, 88, 146);
+    border: solid  rgb(11, 88, 146);
+
+
+}
+ .pp{
+            margin-bottom: 0%;
+            font-size: 25px;
+            text-align: center;
+            font-weight: bolder;
+            margin-top: 28px;
+        }

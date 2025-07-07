@@ -1,0 +1,124 @@
+.req-but{
+    background-color: black;
+    color: white;
+   padding: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-right: 22px;
+    transition: box-shadow 0.25s;
+    
+}
+.req-but:hover{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+.cart{
+    background-color: rgb(238, 251, 4);
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 190px;
+    border-radius: 15px;
+    color:black;
+    transition: background-color 0.25s;
+}
+.req-but:active{
+    border-color: solid white;
+   
+
+}
+.cart:hover{
+    background-color:rgb(162, 169, 24) ;
+}
+.cart:active{
+    opacity: 0.45;
+}
+.signup{
+    background-color:white;
+    color: green;
+    border: 2px solid ;
+    margin-left: 12px;
+    height: 30px;
+    width:80px ;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.25s,color 0.25s,border 0.25s ;
+    cursor:pointer;
+    
+}
+.signup:hover{
+    background-color: green;
+    color: white;
+    border: transparent;
+    
+
+}
+.signup:active{
+  transform: scale(120%);
+}
+p{
+    font-family: Arial;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.top{
+    color: orange;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 4px;
+
+}
+.headd{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 0px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    cursor: pointer;
+
+}
+.big{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.price{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: gray;
+
+}
+.buyy{
+   background-color: rgb(26, 127, 190);
+   text-align: center;
+   margin-left: 205px;
+   margin-top: 5px;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   padding-right: 18px;
+   padding-left: 18px;
+   border-radius: 16px ;
+   border: none;
+   color: white;
+   cursor: pointer;
+   transition: backgroud-color 0.15s,border 0.15s , color 0.15s;
+}
+.buyy:hover{
+background-color: white;
+border: solid rgb(26, 127, 190) ;
+color:rgb(26, 127, 190) ;
+
+
+}
+.spann:hover{
+text-decoration: underline;
+}
+
+

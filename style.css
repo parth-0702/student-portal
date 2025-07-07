@@ -1,0 +1,62 @@
+/* Reset default browser margins and paddings for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logoo {
+    position: absolute; /* Position relative to .slider */
+    top: 10px;          /* Distance from top */
+    left: 10px;         /* Distance from left */
+    z-index: 10;        /* Ensures logo stays above images */
+}
+
+#logoo img {
+    width: 80px;  /* Adjust size as needed (e.g. 80px or 100px) */
+    height: auto;
+}
+
+
+
+/* Navbar styling */
+.navbar {
+    background-color: #333; /* Dark background */
+    padding: 10px 20px;     /* Space inside navbar */
+}
+
+.navbar ul {
+    list-style: none;                /* Remove bullet points */
+    display: flex;                   /* Arrange items horizontally */
+    justify-content: space-around;   /* Even space between items */
+}
+
+.navbar ul li a {
+    color: white;            /* Text color white */
+    text-decoration: none;   /* Remove underline */
+    font-weight: 500;        /* Medium-bold text */
+}
+
+/* Slider container styling */
+.slider {
+    position: relative;  /* For absolutely positioning child images */
+    width: 100%;         /* Full width of screen */
+    height: 55vh;        /* 35% of viewport height (30-40% as required) */
+    overflow: hidden;    /* Hide overflow parts of images */
+}
+
+/* Slider images styling */
+.slider img {
+    position: absolute;          /* Stack images on top of each other */
+    top: 0;
+    left: 0;
+    width: 100%;                 /* Image covers full width */
+    height: 100%;                /* Image covers full height of slider */
+    object-fit: cover;           /* Image covers area without stretching */
+    opacity: 0;                  /* Initially hidden */
+    transition: opacity 1s ease-in-out; /* Smooth fade transition */
+}
+
+/* Show only the active slide */
+.slider img.active {
+    opacity: 1; /* Fully visible */
+}

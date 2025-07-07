@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style1.css">
+    <style>
+       
+        body{
+            background-color:rgb(240, 240, 240);
+        }
+        span{
+            border: 1px solid white ;
+            border-radius: 12px;
+            margin-left: 40%;
+            padding: 3px;
+            text-align: right;
+            font-size: 23px;
+            font-weight: bold;
+            color: rgb(32, 76, 134);
+            background-color: white;
+
+        }
+        .atd{
+             border: 1px solid white ;
+            border-radius: 12px;
+            padding: 6px;
+            font-size: 23px;
+            font-weight: bold;
+            color: rgb(32, 76, 134);
+            background-color: white;
+            margin-left: 10px;
+
+        }
+ body {
+      font-family: Arial, sans-serif;
+      background: #f0f2f5;
+      margin: 0;
+     
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      margin-top: 30px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      width: 280px;
+      height: 450px;
+      padding: 50px;
+      text-align: center;
+      transition: transform 0.2s ease;
+
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .profile-img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #0077cc;
+      margin-bottom: 10px;
+    }
+
+    .name {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 10px 0;
+      color: #333;
+    }
+
+    .attendance {
+      font-size: 16px;
+      color: #555;
+    }
+
+    @media (max-width: 1000px) {
+      body {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    .sub{
+        color: #333;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: left;
+       height: 35px;
+        background-color: #ececec;
+        padding-top: 12px;
+        padding-left: 15px;
+    }
+    .cntr{
+        margin-top: 30%;
+        font-size: 50px;
+        font-weight: bold;
+        color: #333;
+    }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <table  class="navbar">
+            <tr>
+                <td class="imgg" rowspan="2" width="20%">
+                    <p style="padding: 0%;  margin: 0px;"><a style="padding: 0% ; margin: 0px;" href="index.html"> <img src="downloadd.png" alt="logo" height="50px" width="auto" ></a></p>
+                </td>
+                <td rowspan="2"><span class="atd">Attendance</span></td>
+                <td class="space" ><strong>Oza Parth B</strong> </td>
+            </tr>
+            <tr >
+                <td class="space"><strong>24CS055</strong></td>
+            </tr>
+     </table>
+     
+  <div class="card">
+    <img src="prof.png" alt="Profile Photo" class="profile-img">
+    <div class="name">OZA PARTH B</div>
+    <div class="attendance">Attendance:</div>
+    <div class="cntr">85%</div>
+  </div>
+
+  <div class="card">
+    
+    <div class="sub" style="margin-top: 30%;">DSA <span>68%</span></div>
+    <div class="sub">MATHS <span>91%</span></div>
+    <div class="sub">CN <span>89%</span></div>
+    <div class="sub">WDF <span>86%</span></div>
+    <div class="sub">OOP <span>72%</span></div>
+  </div>
+
+  
+
+    
+</body>
+</html>
